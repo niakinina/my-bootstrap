@@ -4,14 +4,14 @@ import CardItem from './cart/CartItem';
 
 const Home = (props) => {
   return (
-    <div>
+    <div3>
         <Slider/>
         <CardItem item={props.item}
         overlayItems={props.overlayItems}
         setOverlayItems={props.setOverlayItems}
         favorites={props.favorites}
         setFavorites={props.setFavorites}/>
-    </div>
+    </div3>
   )
 }
 

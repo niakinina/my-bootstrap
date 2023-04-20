@@ -14,10 +14,10 @@ const Slider = () => {
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h3>КотоПёс</h3>
+        <p><b>Чтобы был счатливым нос, Вам поможет КотоПёс!</b></p>
         <Link exact to={'/form'}>
-        <Button variant="primary">
+        <Button variant="warning">
           Обратная связь
         </Button></Link>
 
@@ -30,17 +30,28 @@ const Slider = () => {
         alt="Second slide"
       />
       <Carousel.Caption>
-        
+      <h3>Классные игрушки</h3>
+      </Carousel.Caption>
+    </Carousel.Item>
+
+    <Carousel.Item>
+      <img  width={'100%'}height={800}
+        className="d-block w-100"
+        src="./img/three.jpeg"
+        alt="Third slide"
+      />
+      <Carousel.Caption>
+      <h3>Замечательные аквариумы</h3>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <img  width={'100%'}height={800}
         className="d-block w-100"
-        src="./img/three.jpg"
+        src="./img/four.jpg"
         alt="Third slide"
       />
       <Carousel.Caption>
-        
+        <h3>Полезные корма</h3>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>

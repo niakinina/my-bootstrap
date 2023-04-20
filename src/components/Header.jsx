@@ -11,31 +11,23 @@ const Header = () => {
     <div>
          <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand> <Link to={'/'}>A&B</Link> </Navbar.Brand>
+          <Navbar.Brand> <Link to={'/'}>КотоПёс</Link> </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link>
               <Link to={'/'}>
               Главная
               </Link>
             </Nav.Link>
-             <Nav.Link> 
-            <Link to={'/favorites'}>
-            Избранное
-            </Link>
-             </Nav.Link>
+             
             <Nav.Link>
               <Link to={'/cart'}>
               Корзина
               </Link>
               </Nav.Link>
-              <Nav.Link>
-              <Link to={'/description'}>
-              Описание
-              </Link>
-              </Nav.Link>
+
           </Nav>
           <Nav>
-            <Button variant="primary">
+            <Button variant="warning">
                     Войти
             </Button>
           </Nav>

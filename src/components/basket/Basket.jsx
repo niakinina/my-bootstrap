@@ -30,7 +30,7 @@ const Basket = (props) => {
           <div className='col-md-8 offset-md-2'>
             <p>Итог</p>
             <p>{props.totalPrice}</p>
-            <button type='button' className='w-10 btn btn-lg btn-primary'>Забронировать</button>
+            <button type='button' className='w-10 btn btn-lg btn-primary'>Заказать</button>
 
           </div>
         </div>

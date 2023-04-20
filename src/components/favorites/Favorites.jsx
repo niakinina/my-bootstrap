@@ -9,7 +9,7 @@ const Favorites = (props) => {
   const context = React.createContext(AppContext)
 
   const onAddOverlay = (obj) =>{
-    axios.post('https://637f91ca2f8f56e28e904e7d.mockapi.io/cart', obj)
+    axios.post('https://6421e8f134d6cd4ebd7e9d11.mockapi.io/cart', obj)
     context.setOverlayItems([...props.overlayItems, obj]);
   }
 
